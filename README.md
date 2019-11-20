@@ -5,7 +5,7 @@
 
 ## Objective
 
-The Software Supply Chain Working Group provides a neutral home for discussion, design, and adoption of industry standards for  software supply chain security.
+The Software Supply Chain Working Group provides a neutral home for discussion, design, and adoption of an industry [framework](framework.md) for software supply chain security.
 
 ## Mission
 
