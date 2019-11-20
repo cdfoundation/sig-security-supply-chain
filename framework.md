@@ -7,11 +7,23 @@ This document provides an overview of the Software Supply Chain. It describes go
 The Software Supply Chain is a complex system of producers and consumers including developers, packagers, application and service providers, and end customers
 
 ## Definitions
-Key concepts in the Software Supply Chain include producers, consumers, artifacts, metadata (Bills of Materials), repositories, policy, and enforcement.
+Key concepts in the Software Supply Chain include producers, consumers, artifacts, metadata stores, metadata, policy, and enforcement.
+
+|Producers||Consumers|
+|:-----:|:-----:|:-----:|
+|Artifacts <br> ------- <br> Metadata Stores| ->  Metadata  -> |Policy <br> ------- <br> Enforcement|
  
+### Producers
+
+Producers produce software **artifacts** and also metadata describing artifacts. They distribute artifact metadata via **metadata stores**.
+
+### Consumers
+
+Consumers consume artifacts and artifact metadata. They write **policy** describing attributes of artifacts they are willing to consume. In the process of consuming artifacts, they apply policy **enforcement**.
+
 ### Artifacts
 
-An artifact is a component of software, from small to large. Artifacts include the following:
+Artifacts are components of software, from small to large. Artifacts include the following:
 * Snippet (a byte range in a file)
 * File
 * Package - grouping of files
@@ -20,23 +32,28 @@ An artifact is a component of software, from small to large. Artifacts include t
 * Cloud Service - grouping of containers, packages and files
 * Installed System – grouping of packages and files
 
-### Artifact Metadata (Software Bill of Materials)
-Artifact metadata, also known as a Software Bill of Materials (SBOM) describes artifacts. Elements of artifact metadata include the following:
+### Metadata Stores
+Metadata stores distributes artifact metadata. They are responsible for the following tasks:
+*	Signing metadata
+*	Managing distribution, revocation, and replacement of cryptographic keys
+*	Distributing metadata
+
+Metadata stores are provided by the following:
+* source code repositories
+* container registries
+* package repositories
+* installed package databases.
+
+### Metadata
+Artifact metadata describes artifacts. Metadata includes the following attributes:
 *	Identity (name, producer, version, hash)
 *	Authenticity (cryptographic signatures)
 *	Build information (tools, environment, configuration)
 *	Intellectual property information (license)
 *	Relationships with other artifacts (describes, contains)
 
-### Artifact Repositories
-An artifact repository is a service that distributes artifact metadata and may also distribute artifacts. Artifact repositories are responsible for the following tasks:
-*	Signing metadata
-*	Managing cryptographic key distribution, revocation, and replacement
-*	Distributing artifacts and/or metadata
-Some examples of repositories include the following source code repositories, container registries, package repositories, installed package databases.
-
-### Artifact Policy
-Artifact policy describes requirements for artifact consumption, including the following:
+### Policy
+Policy describes requirements for artifact consumption, including the following:
 *	Allowed producers
 *	Allowed licenses
 *	Allowed build environments
@@ -44,8 +61,8 @@ Artifact policy describes requirements for artifact consumption, including the f
 *	Required certifications (e.g. SDL, industry audits)
 *	Expected order of steps in the chain (e.g. to prevent man in the middle attacks)
 
-### Policy Enforcement
-Policy enforcement is responsible for inspecting consumed artifacts and enforcing policy, including the following:
+### Enforcement
+Enforcement is responsible for inspecting incoming artifacts and enforcing policy. Enforcement handles verification and validation including the following:
 *	Signature verification
 *	Artifact hash validation
 *	License validation
