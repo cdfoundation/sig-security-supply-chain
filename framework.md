@@ -86,4 +86,4 @@ SBOM signature, component hashes|Allowed hash and signature types|
 |Chain of Custody|Enable validation that software has completed expected steps in expected order, e.g. including security and compliance audits|Steps in the chain|Allowed and required steps and order|
 
 
-[//]: # 'Additional user scenarios can be found in the user scenarios folder.'
+Additional user scenarios can be found in the [scenarios](scenarios) folder.
