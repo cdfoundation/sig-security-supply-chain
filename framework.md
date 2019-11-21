@@ -39,13 +39,13 @@ Following are several example user scenarios.
 4. Scanning tools are able to identify all files, packages, installed systems, containers and cloud services that contain the commit.    
 ### Example Scenario - Integrity
 1. Developer commits code
-2. Build system verifies integity
-    * Was source doe provided by an allowed committer
-    * Is the source code received the same as what was committed?
+2. Build system verifies code integity
+    * Was code provided by allowed committer?
+    * Was code received the same as code committed?
 3. Build system outputs build artifacts
-4. Release system verifies integrity
-    * Were the build artificats provided by an allowed builder?
-    * Were the build artifacts received the same as what the builder produced?
+4. Release system verifies build artifact integrity
+    * Were build artificats provided by allowed builder?
+    * Were build artifacts received the same as build artifacts produced?
 
 ## Definitions
 Key concepts in the Software Supply Chain Security Framework include producers, consumers, artifact stores, metadata stores, metadata, policy, and enforcement.
