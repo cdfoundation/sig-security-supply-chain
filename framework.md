@@ -13,7 +13,7 @@ Participants across the software supply chain (developers, packagers, applicatio
 
 ### User Scenarios
 
-The following table provides an overview of Software Supply Chain user scenarios.
+The following table provides an overview of Software Supply Chain Security user scenarios.
 
 
 | Scenario       | Description  | Metadata      | Policy |
