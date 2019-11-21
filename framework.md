@@ -11,11 +11,11 @@ The Software Supply Chain is a complex system of producers and consumers includi
 Participants across the software supply chain (developers, packagers, application and service providers, and end customers) can produce and consume trustworthy software.
 
 ## Definitions
-Key concepts in the Software Supply Chain Security Framework include producers, consumers, artifacts, metadata stores, metadata, policy, and enforcement.
+Key concepts in the Software Supply Chain Security Framework include producers, consumers, artifact stores, metadata stores, metadata, policy, and enforcement.
 
 |Producers||||Consumers|
 |:-----:|:-----:|:-----:|:-----:|:-----:|
-|Artifacts<br>+<br>Metadata Stores|->|Artifacts<br>+<br>Metadata|->|Policy<br>+<br>Enforcement|
+|Artifact Stores<br>+<br>Metadata Stores|->|Artifacts<br>+<br>Metadata|->|Policy<br>+<br>Enforcement|
  
 ### Producers
 
@@ -25,16 +25,13 @@ Producers produce software **artifacts** and also metadata describing artifacts.
 
 Consumers consume artifacts and metadata. They write **policy** describing attributes of artifacts they are willing to consume. In the process of consuming artifacts, they apply policy **enforcement**.
 
-### Artifacts
+### Artifact Stores
+Artifact stores distribute artifacts.
 
-Artifacts are components of software, from small to large. Artifacts include the following:
-* Snippet (a byte range in a file)
-* File
-* Package - grouping of files
-* Package repository - grouping of packages
-* Container - grouping of packages and files
-* Cloud Service - grouping of containers, packages and files
-* Installed System – grouping of packages and files
+Artifact stores are provided by the following:
+* source code repositories
+* container registries
+* package repositories
 
 ### Metadata Stores
 Metadata stores distributes artifact metadata. They are responsible for the following tasks:
@@ -46,7 +43,18 @@ Metadata stores are provided by the following:
 * source code repositories
 * container registries
 * package repositories
-* installed package databases.
+* installed package databases
+
+### Artifacts
+
+Artifacts are components of software, from small to large. Artifacts include the following:
+* Snippet (a byte range in a file)
+* File
+* Package - grouping of files
+* Package repository - grouping of packages
+* Container - grouping of packages and files
+* Cloud Service - grouping of containers, packages and files
+* Installed System – grouping of packages and files
 
 ### Metadata
 Artifact metadata describes artifacts. Metadata includes the following attributes:
