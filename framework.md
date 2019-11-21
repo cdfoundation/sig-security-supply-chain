@@ -42,9 +42,9 @@ Following are several example user scenarios.
 2. Build system verifies code authenticity and integity
     * Was code provided by allowed committer?
     * Was code received the same as code committed?
-3. Build system outputs build artifact authenticity and integrity
+3. Build system outputs build artifacts
 4. Release system verifies build artifact integrity
-    * Were build artificats provided by allowed builder?
+    * Were build artifacts provided by allowed builder?
     * Were build artifacts received the same as build artifacts produced?
 
 ## Definitions
