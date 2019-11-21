@@ -10,6 +10,24 @@ The Software Supply Chain is a complex system of producers and consumers includi
 
 Participants across the software supply chain (developers, packagers, application and service providers, and end customers) can produce and consume trustworthy software.
 
+
+### User Scenarios
+
+The following table provides an overview of Software Supply Chain user scenarios.
+
+
+| Scenario       | Description  | Metadata      | Policy |
+| :------------- | :---------- | :----------- | :--------- |
+|  Identity | Enable unambiguous referral to software components, e.g. to consume, purchase, transfer, inventory, or associate with outside databases, e.g. security vulnerability | Unique identity | Allowed identities |
+|Build Security|Enable validation of choices made for securing software during the creation process (pedigree)|Information about build environment|Allowed build environments|
+|Authenticity|Enable validation of the software provider (provenance)|Cryptographic signature|Allowed signatures|
+|Integrity|Enable validation of whether software (or the SBOM itself) has been altered, e.g. during transmission or on deployed systems|
+SBOM signature, component hashes|Allowed hash and signature types|
+|License|Enable validation of proper and legal use of software|Intellectual property information|Allowed intellectual property|
+|Chain of Custody|Enable validation that software has completed expected steps in expected order, e.g. including security and compliance audits|Steps in the chain|Allowed and required steps and order|
+
+
+Additional user scenarios can be found in the [scenarios](scenarios) folder.
 ## Definitions
 Key concepts in the Software Supply Chain Security Framework include producers, consumers, artifact stores, metadata stores, metadata, policy, and enforcement.
 
