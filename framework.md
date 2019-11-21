@@ -39,10 +39,10 @@ Following are several example user scenarios.
 4. Scanning tools are able to identify all files, packages, installed systems, containers and cloud services that contain the commit.    
 ### Example Scenario - Authenticity and Integrity
 1. Developer commits code
-2. Build system verifies code integity
+2. Build system verifies code authenticity and integity
     * Was code provided by allowed committer?
     * Was code received the same as code committed?
-3. Build system outputs build artifacts
+3. Build system outputs build artifact authenticity and integrity
 4. Release system verifies build artifact integrity
     * Were build artificats provided by allowed builder?
     * Were build artifacts received the same as build artifacts produced?
