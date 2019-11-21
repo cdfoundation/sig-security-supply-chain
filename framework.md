@@ -8,7 +8,7 @@ The Software Supply Chain is a complex system of producers and consumers includi
 
 ## Mission
 
-Participants across the software supply chain (developers, packagers, application and service providers, and end customers) can produce and consume trustworthy software.
+Participants across the software supply chain can produce and consume trustworthy software.
 
 
 ## User Scenarios
