@@ -46,6 +46,16 @@ Following are several example user scenarios.
 4. Release system verifies build artifact integrity
     * Were build artifacts provided by allowed builder?
     * Were build artifacts received the same as build artifacts produced?
+    
+### Example Scenario - Chain of Custody
+1. Developer commits code
+2. Compliance system reviews code
+   * Does code meet compliance policies?
+2. Build system verifies code authenticity, integrity, and compliance
+    * Was code provided by allowed committer?
+    * Was code received the same as code committed?
+    * Was code reviewed by compliance authority?
+3. Build system outputs build artifacts
 
 ## Definitions
 Key concepts in the Software Supply Chain Security Framework include producers, consumers, artifact stores, metadata stores, metadata, policy, and enforcement.
