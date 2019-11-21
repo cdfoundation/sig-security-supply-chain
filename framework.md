@@ -54,7 +54,7 @@ Following are several example user scenarios.
 2. Build system verifies code authenticity, integrity, and compliance
     * Was code provided by an allowed committer?
     * Was code received the same as code committed?
-    * Was code reviewed by an allwed compliance authority?
+    * Was code reviewed by an allowed compliance authority?
     * Build system outputs build artifacts
 
 ## Definitions
