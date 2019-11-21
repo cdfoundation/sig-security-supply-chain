@@ -30,7 +30,7 @@ Following are several example user scenarios.
 ### Example Scenario - Identity
 
 1. Developer commits code
-2. The code is used in many places:
+2. Code is used in many places:
     * Incorporated into packages
     * Packages are installed on various end user systems
     * Packages are installed in various containers
