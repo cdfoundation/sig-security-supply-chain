@@ -29,8 +29,8 @@ Following are several example user scenarios.
 
 ### Example Scenario - New Critical Security Vulnerability
 
-1. Developer commits new code
-2. The new code is used in many places
+1. Developer commits code
+2. The code is used in many places
     * Incorporated into packages
     * Packages are installed on various end user systems
     * Packages are installed in various containers
