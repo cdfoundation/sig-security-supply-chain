@@ -1,10 +1,14 @@
-# Software Supply Chain Framework
+# Software Supply Chain Security Framework
 
-This document provides an overview of the Software Supply Chain. It describes goals, defines key concepts, and provides an overview of user scenarios. Finally, it describes the current status of the industry-wide effort and upcoming milestones.
+This document provides an overview of the Software Supply Chain Security Framework. It describes the mission, defines key concepts, and provides a summary of user scenarios.
 
 ## Overview
 
 The Software Supply Chain is a complex system of producers and consumers including developers, packagers, application and service providers, and end customers
+
+## Mission
+
+Participants across the software supply chain (developers, packagers, application and service providers, and end customers) can produce and consume trustworthy software.
 
 ## Definitions
 Key concepts in the Software Supply Chain include producers, consumers, artifacts, metadata stores, metadata, policy, and enforcement.
