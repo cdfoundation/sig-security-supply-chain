@@ -30,13 +30,22 @@ Following are several example user scenarios.
 ### Example Scenario - Identity
 
 1. Developer commits code
-2. The code is used in many places
+2. The code is used in many places:
     * Incorporated into packages
     * Packages are installed on various end user systems
     * Packages are installed in various containers
     * Containers are used in various cloud services
 3. Later, a vulnerability is identified in the developer's commit
 4. Scanning tools are able to identify all files, packages, installed systems, containers and cloud services that contain the commit.    
+### Example Scenario - Integrity
+1. Developer commits code
+2. Build system verifies integity
+    * Was source doe provided by an allowed committer
+    * Is the source code received the same as what was committed?
+3. Build system outputs build artifacts
+4. Release system verifies integrity
+    * Were the build artificats provided by an allowed builder?
+    * Were the build artifacts received the same as what the builder produced?
 
 ## Definitions
 Key concepts in the Software Supply Chain Security Framework include producers, consumers, artifact stores, metadata stores, metadata, policy, and enforcement.
