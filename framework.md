@@ -16,14 +16,14 @@ Participants across the software supply chain (developers, packagers, applicatio
 The following table provides an overview of Software Supply Chain Security user scenarios.
 
 
-| Scenario       | Description  | Metadata      | Policy |
-| :------------- | :---------- | :----------- | :--------- |
-|  Identity | Enable unambiguous referral to software components, e.g. to consume, purchase, transfer, inventory, or associate with outside databases, e.g. security vulnerability | Unique identity | Allowed identities |
-|Build Security|Enable validation of choices made for securing software during the creation process (pedigree)|Information about build environment|Allowed build environments|
-|Authenticity|Enable validation of the software provider (provenance)|Cryptographic signature|Allowed signatures|
-|Integrity|Enable validation of whether software (or the SBOM itself) has been altered, e.g. during transmission or on deployed systems|SBOM signature, component hashes|Allowed hash and signature types|
-|License|Enable validation of proper and legal use of software|Intellectual property information|Allowed intellectual property|
-|Chain of Custody|Enable validation that software has completed expected steps in expected order, e.g. including security and compliance audits|Steps in the chain|Allowed and required steps and order|
+| Scenario       | Description  |
+| :------------- | :---------- |
+|  Identity | Enable unambiguous referral to software components, e.g. to consume, purchase, transfer, inventory, or associate with outside databases, e.g. security vulnerability |
+|Build Security|Enable validation of choices made for securing software during the creation process (pedigree)|
+|Authenticity|Enable validation of the software provider (provenance)|
+|Integrity|Enable validation of whether software (or the SBOM itself) has been altered, e.g. during transmission or on deployed systems|
+|License|Enable validation of proper and legal use of software|
+|Chain of Custody|Enable validation that software has completed expected steps in expected order, e.g. including security and compliance audits|
 
 
 Additional user scenarios can be found in the [scenarios](scenarios) folder.
