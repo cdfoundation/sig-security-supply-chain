@@ -23,7 +23,7 @@ Producers produce software **artifacts** and also metadata describing artifacts.
 
 ### Consumers
 
-Consumers consume artifacts and artifact metadata. They write **policy** describing attributes of artifacts they are willing to consume. In the process of consuming artifacts, they apply policy **enforcement**.
+Consumers consume artifacts and metadata. They write **policy** describing attributes of artifacts they are willing to consume. In the process of consuming artifacts, they apply policy **enforcement**.
 
 ### Artifacts
 
