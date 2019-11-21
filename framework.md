@@ -27,7 +27,7 @@ The following table provides an overview of Software Supply Chain Security user 
 
 Following are several example user scenarios.
 
-### Example Scenario - New Critical Security Vulnerability
+### Example Scenario - Identity
 
 1. Developer commits code
 2. The code is used in many places
