@@ -21,7 +21,7 @@ The following table provides an overview of Software Supply Chain Security user 
 |  Identity | Enable unambiguous referral to software components, e.g. to consume, purchase, transfer, inventory, or associate with outside databases, e.g. security vulnerability |
 |Build Security|Enable validation of choices made for securing software during the creation process (pedigree)|
 |Authenticity|Enable validation of the software provider (provenance)|
-|Integrity|Enable validation of whether software (or the SBOM itself) has been altered, e.g. during transmission or on deployed systems|
+|Integrity|Enable validation of whether software has been altered, e.g. during transmission or on deployed systems|
 |License|Enable validation of proper and legal use of software|
 |Chain of Custody|Enable validation that software has completed expected steps in expected order, e.g. including security and compliance audits|
 
