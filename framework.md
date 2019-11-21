@@ -13,9 +13,9 @@ Participants across the software supply chain (developers, packagers, applicatio
 ## Definitions
 Key concepts in the Software Supply Chain Security Framework include producers, consumers, artifacts, metadata stores, metadata, policy, and enforcement.
 
-|Producers||Consumers|
-|:-----:|:-----:|:-----:|
-|Artifacts <br> ------- <br> Metadata Stores| ->  Metadata  -> |Policy <br> ------- <br> Enforcement|
+|Producers||||Consumers|
+|:-----:|:-----:|:-----:|:-----:|:-----:|
+|Artifacts<br>+<br>Metadata Stores|->|Artifact<br>+<br>Metadata|->||Policy<br>+<br>Enforcement|
  
 ### Producers
 
