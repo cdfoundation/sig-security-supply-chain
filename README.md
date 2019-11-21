@@ -18,7 +18,7 @@ Participants across the software supply chain (developers, packagers, applicatio
 
 ## Communications
 
-Anyone is welcome to join our open discussions of Software Supply Chain projects and share news related to the group's mission and charter. Much of the work of the group happens outside of working group meetings and we encourage members to share progress updates or post questions in these channels:
+Anyone is welcome to join open discussions of Software Supply Chain projects and share news related to the group's mission and charter. Much of the work of the group happens outside of working group meetings and we encourage members to share progress updates or post questions in these channels:
 
 * [Email list](https://lists.cd.foundation/g/sig-security-supply-chain)
 - Mail Address: sig-security-supply-chain@lists.cd.foundation
