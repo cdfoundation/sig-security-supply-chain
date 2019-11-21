@@ -39,12 +39,12 @@ Following are several example user scenarios.
 4. Scanning tools are able to identify all files, packages, installed systems, containers and cloud services that contain the commit.    
 ### Example Scenario - Authenticity and Integrity
 1. Developer commits code
-2. Build system verifies code authenticity and integity
-    * Was code provided by allowed committer?
+2. Build system builds code
+    * Was code provided by an allowed committer?
     * Was code received the same as code committed?
     * Build system outputs build artifacts
-3. Release system verifies build artifact integrity
-    * Were build artifacts provided by allowed builder?
+3. Release system releases code
+    * Were build artifacts provided by an allowed builder?
     * Were build artifacts received the same as build artifacts produced?
     
 ### Example Scenario - Chain of Custody
@@ -52,9 +52,9 @@ Following are several example user scenarios.
 2. Compliance system reviews code
    * Does code meet compliance policies?
 2. Build system verifies code authenticity, integrity, and compliance
-    * Was code provided by allowed committer?
+    * Was code provided by an allowed committer?
     * Was code received the same as code committed?
-    * Was code reviewed by compliance authority?
+    * Was code reviewed by an allwed compliance authority?
     * Build system outputs build artifacts
 
 ## Definitions
