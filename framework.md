@@ -36,7 +36,7 @@ Following are several example user scenarios.
     * Packages are installed in various containers
     * Containers are used in various cloud services
 3. Later, a vulnerability is identified in the developer's commit
-4. Scanning are able to identify all files, packages, installed systems, containers and cloud services that contain the commit.    
+4. Scanning tools are able to identify all files, packages, installed systems, containers and cloud services that contain the commit.    
 
 ## Definitions
 Key concepts in the Software Supply Chain Security Framework include producers, consumers, artifact stores, metadata stores, metadata, policy, and enforcement.
