@@ -29,15 +29,14 @@ Following are several example user scenarios.
 
 ### Example Scenario - New Critical Security Vulnerability
 
-1. Developer commits code
+1. Developer commits new code
 2. The new code is used in many places
-    * Incorporated into a package
-    * The package is installed on various end user systems
-    * The package is installed in various containers
-    * The containers are used in various cloud services
+    * Incorporated into packages
+    * Packages are installed on various end user systems
+    * Packages are installed in various containers
+    * Containers are used in various cloud services
 3. Later, a vulnerability is identified in the developer's commit
-4. Scanning are able to identify all files, packages, installed systems, containers and cloud services that contain the commit.
-    
+4. Scanning are able to identify all files, packages, installed systems, containers and cloud services that contain the commit.    
 
 ## Definitions
 Key concepts in the Software Supply Chain Security Framework include producers, consumers, artifact stores, metadata stores, metadata, policy, and enforcement.
