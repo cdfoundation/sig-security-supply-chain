@@ -11,7 +11,7 @@ The Software Supply Chain is a complex system of producers and consumers includi
 Participants across the software supply chain (developers, packagers, application and service providers, and end customers) can produce and consume trustworthy software.
 
 ## Definitions
-Key concepts in the Software Supply Chain include producers, consumers, artifacts, metadata stores, metadata, policy, and enforcement.
+Key concepts in the Software Supply Chain Security Framework include producers, consumers, artifacts, metadata stores, metadata, policy, and enforcement.
 
 |Producers||Consumers|
 |:-----:|:-----:|:-----:|
