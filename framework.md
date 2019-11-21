@@ -37,7 +37,7 @@ Following are several example user scenarios.
     * Containers are used in various cloud services
 3. Later, a vulnerability is identified in the developer's commit
 4. Scanning tools are able to identify all files, packages, installed systems, containers and cloud services that contain the commit.    
-### Example Scenario - Integrity
+### Example Scenario - Authenticity and Integrity
 1. Developer commits code
 2. Build system verifies code integity
     * Was code provided by allowed committer?
