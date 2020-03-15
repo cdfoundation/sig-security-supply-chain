@@ -1,15 +1,15 @@
-# Software Supply Chain Security Working Group
+# Supply Chain Security Working Group
 
 [//]: # '## Quick links'
 
 
 ## Objective
 
-The Software Supply Chain Security Working Group provides a neutral home for discussion, design, and adoption of an industry [framework](framework.md) for software supply chain security.
+The Supply Chain Security Working Group provides a neutral home for discussion, design, and adoption of an industry [framework](https://docs.google.com/document/d/1_5ZnoLzQ1AqMYzXZ_avbqILRgAsfuEnkL3TTbg9LfnU/edit?usp=sharing) for supply chain security.
 
 ## Mission
 
-Participants across the software supply chain (developers, packagers, application and service providers, and end customers) can produce and consume trustworthy software.
+Participants across supply chains can produce and consume trustworthy products.
 
 
 [//]: # "# Governance"
